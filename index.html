@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Drag Papers ❤️</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Short+Stack&amp;family=Homemade+Apple&amp;display=swap'><link rel="stylesheet" href="./style.css">
+ 
+</head>
+<body>
+
+  
+
+  <audio autoplay loop>
+    <source src="music1.mp3" type="audio/mp3">
+  </audio>
+
+
+  <!-- <audio  controls loop src="music1.mp3". type="audio/mp3"></audio> -->
+
+
+ 
+<!-- partial:index.partial.html -->
+<!-- A pen by Developer Rahul  -->
+
+
+<button class="btn" onclick="dosomething()">!!! Click me !!!<br> 14 Aug...</button>
+
+<div class="paper heart">
+</div>
+
+
+<script src="confetti.js"></script>
+
+    <!-- Confetti  JS-->
+    <script>
+      function dosomething(){
+        // start
+        
+
+        const start = () => {
+            setTimeout(function() {
+                confetti.start()
+            }, 1000); // 1000 is time that after 1 second start the confetti ( 1000 = 1 sec)
+        };
+
+        //  Stop
+
+        const stop = () => {
+            setTimeout(function() {
+                confetti.stop()
+            }, 5000); // 5000 is time that after 5 second stop the confetti ( 5000 = 5 sec)
+        };
+
+        
+         start();
+        stop();
+      }
+    </script>
+
+  
+<div class="paper image">
+  <p>  मेरी हर धड़कन में आप बसी हैं </p>
+    <p>Love You 💖💗🥰💞 Mummy </p>
+   <img src="momimages\WhatsApp Image 2024-08-12 at 23.51.12_eac5570f.jpg" />
+</div>
+
+<div class="paper image">
+  <p></p><br><br>
+  <img src="momimages\WhatsApp Image 2024-08-12 at 23.51.09_b1c11103.jpg" />
+</div>
+
+<div class="paper image">
+  <p>आपका प्यार मेरे जीवन की </p>
+   <p> सबसे बड़ी ताकत है ❤️ </p>
+
+  <!-- <img src="momimages\WhatsApp Image 2024-08-12 at 23.51.10_c948485a1.jpg" /> -->
+  <img src="momimages\WhatsApp Image 2024-08-12 at 23.51.12_48d95f10.jpg" />" />
+</div>
+
+
+
+<div class="paper red">
+<p class="p1"> आपका प्यार मेरे लिए</p>
+<p class="p2">सबसे बड़ी दौलत है, 😍</p>
+</div>
+
+<div class="paper">
+<p class="p1">जन्मदिन की अनगिनत  <span style="color: rgb(17, 236, 218) !important;">♾</span> शुभकामनाएं </p>
+  <p class="p1">मेरी प्यारी माँ! <span style="color: rgb(248, 27, 196) !important;">❤️</span></p>
+</div>
+
+<div class="paper">
+<p class="p1">Drag the papers to move!</p>
+</div>
+<!-- partial -->
+ <script src="./mobile.js"></script>
+  <!-- <script  src="./script.js"></script> -->
+
+
+</body>
+</html>
